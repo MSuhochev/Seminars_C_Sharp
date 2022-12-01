@@ -18,13 +18,17 @@ if(a > b & a > c)
     Console.Write("max = ");
     Console.Write(a);
 }
-if(b > c & b > a)
+else if(b > c & b > a)
 {
     Console.Write("max = ");
     Console.Write(b); 
 }
-if(c > b & c > a)
+else if(c > b & c > a)
 {
         Console.Write("max = ");
         Console.Write(c);
+}
+else if(a == b & b == c & c == a)
+{
+    Console.Write("Все числа равны.");
 }
